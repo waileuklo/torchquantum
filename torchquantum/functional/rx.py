@@ -130,7 +130,7 @@ def rx(
     static=False,
     parent_graph=None,
     inverse=False,
-    comp_method="bmm",
+    comp_method="einsum",
 ):
     """Perform the rx gate.
 
