@@ -127,7 +127,7 @@ def u3(
     static=False,
     parent_graph=None,
     inverse=False,
-    comp_method="bmm",
+    comp_method="einsum",
 ):
     """Perform the u3 gate.
 
